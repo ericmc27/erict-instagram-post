@@ -1,0 +1,86 @@
+body {
+    background-color: black;
+}
+
+.ig-post {
+    background-color: white;
+    height: 550px;
+    width: 440px;
+    margin: auto;
+    margin-top: 75px;
+}
+
+.post-header {
+    display: flex;
+    width: 100%;
+    height: 57px;
+} 
+
+.post-header-logo  {
+    margin-top: 19px;
+    margin-left: 10px; 
+}
+
+.post-header-text h5 {
+    margin-top: 11px;
+    margin-bottom: 0px;
+    margin-left: 6px;
+    font-family: 'Roboto';
+}
+
+.post-header-text p {
+    margin-top: 0px;
+    margin-left: 6px;
+    font-family: 'Roboto';
+    font-size: smaller;
+}
+
+.post-header-dots  {
+    margin-top: 12px;
+    margin-left: 327px;
+    font-size: 29px;
+}
+
+.post-image {
+    width: 100%;
+    height: 290px;
+}
+
+.post-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.post-logos {
+    display: flex;
+    width: 100%;
+    height: 35px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.post-logos-left, .post-logos-right {
+    margin-top: 33px;
+    font-size: 30px;
+}
+
+.heart {
+    margin-left: 12px;
+}
+
+.save {
+    margin-right: 20px;
+}
+
+.post-text-top, .post-text-bottom {
+    font-size: 14px;
+    margin-top: 35px;
+    font-family: 'Roboto';
+    margin-left: 12px;
+} 
+
+.post-text-bottom p {
+    margin-top: -25px;
+}
+
